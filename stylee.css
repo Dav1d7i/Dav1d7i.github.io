@@ -1,5 +1,6 @@
 @charset "UTF-8";
 body {
     border: thin dashed #BE595B;
-    background: none;
+    color: blue;
+    background-color: aliceblue;
 }
