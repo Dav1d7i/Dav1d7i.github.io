@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Visual Design</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+	.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+	</style>
+</head>
+
+<body>
+<h1 class="center">Visual Design</h1>
+	<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="visualdesign.html">Visual Design</a>
+  <a href="digitaldesign.html">Digital Desgin</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="WCP.html">WCP</a>
+</div>
+	
+	<div class="row"> 
+  <div class="column">
+    <img src="Artifacts/David A. in different font.png?.png?.png?.png" style="width:100%" alt="davida">
+    <img src="Artifacts/CR7 v Messi.png" style="width:100%" alt="cr7messi">
+    <img src="Artifacts/Real Among Us.png?.png?.png" style="width:100%" alt="amongus">
+    <img src="Artifacts/yaya.png?.png?.png?.png?.png?.png" style="width:100%" alt="yaya">
+    <img src="Artifacts/Ronaldo portrait.png" style="width:100%" alt="ronaldoportrait">
+    <img src="Artifacts/cooki crumble.gif" style="width:100%" alt="cookie">
+  </div>
+</div>
+
+	</body>
+</html>
