@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign-Up Form</title>
+</head>
+<style>
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url(../realmadrid.jpeg);
+	color:white;
+}	
+	
+	
+	</style>
+<body>
+<h1> Sign-Up Form for being a Madridista</h1>
+	
+<p> Real Madrid is the best club in history, show you support here!</p>
+	<form method="post" action="https://handlers.education.launchcode.org/request-parrot">
+<label for="First Name"><strong>First name:</strong></label>
+<input name="First Name" type="text" required="required" id="firstname">
+<br>
+<label for="Last Name"><strong>Last Name</strong></label>
+<input name="Last Name" type="text" required="required" id="lastname">
+<br>
+  <label for="Username"><strong>Username</strong></label>
+  <input name="Username" type="text" required="required" pattern="[A-Za-z]{6,10}">
+<br>
+  <label for="Password"><strong>Password</strong></label>
+  <input name="Password" type="password" required="required" pattern="[0-9A-Za-z]{6,10}">
+<br>
+  <label for="Date of Birth"><strong>Date of Birth</strong></label>
+  <input name="Date of Birth" type="date" required="required">
+<br>
+  <label for="Phone Number"><strong>Phone Number</strong></label>
+  <input name="Phone Number" type="tel" required="required" pattern="[0-9] {10-12}">
+<br>
+  <label for="Email"><strong>Email</strong></label>
+  <input name="Email" type="email" required="required" minlength="8">
+  <br>
+  <label for="Personal Website"><strong>Personal Website</strong></label>
+  <input name="Personal Website" type="url" value="http://www.">
+<br>
+ <strong>Who is the better attacker?</strong>
+ <br>
+  <label>
+     <input type="checkbox" name="Interests" value="Rodrygo" id="Interests_3">
+    Rodrygo</label>
+  <br>
+  <label>
+    <input type="checkbox" name="Interests" value="Vinicius Jr" id="Interests_1">
+    Vinicius Jr</label>
+  <br>
+  
+ <strong>Who is the better midfielder?</strong>
+ <br>
+		
+		<label>
+    <input type="checkbox" name="Interests" value="Federico Valverde" id="Interests_2">
+    Federico Valverde</label>
+  <br>
+  <label>
+   
+   <input type="checkbox" name="Interests" value="Toni Kroos" id="Interests_0">
+    Toni Kroos</label>
+		<br>
+      <p>
+	      <label>
+	        <input type="radio" name="Where did you hear about it" value="Billboard" id="Wheredidyouhearaboutit_0">
+	        Billboard</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Where did you hear about it" value="Online Advertisement" id="Wheredidyouhearaboutit_1">
+	        Online Advertisement</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Where did you hear about it" value="Email" id="Wheredidyouhearaboutit_2">
+	        Email</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Where did you hear about it" value="From a friend" id="Wheredidyouhearaboutit_3">
+	        From a friend</label>
+	      <br>
+      </p>
+      <input type="reset"><input type="submit">
+</form>
+</body>
+</html>
